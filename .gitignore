@@ -1,0 +1,11 @@
+# Nix flake artifact
+result
+
+# Build artifacts
+build/
+
+# LSP file
+compile_commands.json
+
+# CMake cache directory
+.cache/
