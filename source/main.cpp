@@ -1,6 +1,6 @@
-#include "cli/cli.hpp"
+#include "driver/driver.hpp"
 
 int main(int argc, char** argv) {
-    cli::run();
+    driver::run();
     return 0;
 }

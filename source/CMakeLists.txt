@@ -10,7 +10,7 @@ add_custom_target(
     ${CMAKE_SOURCE_DIR}
 )
 
-add_subdirectory(cli)
+add_subdirectory(driver)
 
 set(TARGET_NAME ${PROJECT_NAME})
 set(ENTRYPOINT
@@ -20,7 +20,7 @@ add_executable(${TARGET_NAME}
     ${ENTRYPOINT}
 )
 target_link_libraries(${TARGET_NAME}
-    cli
+    driver
 )
 
 set_target_properties(${TARGET_NAME} PROPERTIES
