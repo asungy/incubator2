@@ -2,7 +2,7 @@
 #define DRIVER_HPP
 
 namespace driver {
-    void run();
+    int run(int argc, char** argv) noexcept;
 }
 
 #endif // !DRIVER_HPP
