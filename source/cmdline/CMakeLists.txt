@@ -7,6 +7,7 @@ set(HEADERS
 
 set(SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/intern/cmdline.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/intern/subcommands/run.cpp
 )
 
 include(FetchContent)
