@@ -1,8 +1,8 @@
-#include "driver/driver.hpp"
+#include "cmdline/cmdline.hpp"
 #include "CLI/App.hpp"
 #include "CLI/CLI.hpp"
 
-namespace driver {
+namespace cmdline {
     int run(int argc, char** argv) noexcept
     {
         CLI::App app;

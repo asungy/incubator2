@@ -1,6 +1,6 @@
-#include "driver/driver.hpp"
+#include "cmdline/cmdline.hpp"
 
 int main(int argc, char** argv)
 {
-    return driver::run(argc, argv);
+    return cmdline::run(argc, argv);
 }

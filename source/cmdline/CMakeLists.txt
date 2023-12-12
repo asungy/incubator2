@@ -1,11 +1,11 @@
-set(TARGET_NAME "driver")
+set(TARGET_NAME "cmdline")
 
 set(HEADERS
-    ${CMAKE_CURRENT_SOURCE_DIR}/include/driver/driver.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/cmdline/cmdline.hpp
 )
 
 set(SOURCES
-    ${CMAKE_CURRENT_SOURCE_DIR}/intern/driver.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/intern/cmdline.cpp
 )
 
 include(FetchContent)
