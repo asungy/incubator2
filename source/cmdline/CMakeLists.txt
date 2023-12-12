@@ -2,6 +2,7 @@ set(TARGET_NAME "cmdline")
 
 set(HEADERS
     ${CMAKE_CURRENT_SOURCE_DIR}/include/cmdline/cmdline.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/intern/subcommands/subcommands.hpp
 )
 
 set(SOURCES
@@ -23,6 +24,7 @@ add_library(${TARGET_NAME}
 
 target_include_directories(${TARGET_NAME}
     PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include
+    PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/intern
 )
 
 set_target_properties(${TARGET_NAME} PROPERTIES
